@@ -123,3 +123,65 @@ h2.title {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+/**** waiting ****/
+
+.waiting {
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+  text-align: center;
+}
+
+.wait_header {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #252525;
+  position: relative;
+  padding-bottom: 18px;
+}
+
+.wait_header::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 109px);
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.waiting_divider {
+  margin-top: 17px;
+}
+
+.waiting_subheader {
+  font-size: 23px;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+.waiting_box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+
+.waiting_items {
+  width: 340px;
+}
+
+.waiting_img {
+  display: block;
+  width: 342px;
+  height: 201px;
+  margin: 0 auto;
+}
+
+.wait_items_text {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #4a4a4a;
+  margin-top: 33px;
+}
