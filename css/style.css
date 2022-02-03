@@ -275,3 +275,43 @@ h2.title {
   color: #efefef;
   margin-top: 26px;
 }
+
+/*** present ***/
+
+.present {
+  padding: 86px 0 83px 0;
+  text-align: center;
+  background-color: #efefef;
+}
+
+.present_img {
+  display: block;
+  margin: 0 auto;
+  width: 154px;
+  height: 173px;
+}
+
+.present_text {
+  font-size: 30px;
+  line-height: 43px;
+  font-weight: 400;
+  color: #252525;
+  margin-top: 42px;
+}
+
+.present_btn {
+  width: 321px;
+  height: 80px;
+  background-image: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.17);
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 48px;
+}
