@@ -161,13 +161,13 @@ h2.title {
   color: #4a4a4a;
 }
 
-.waiting_box {
+.waiting_wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 45px;
 }
 
-.waiting_items {
+.waiting_item {
   width: 340px;
 }
 
@@ -178,7 +178,7 @@ h2.title {
   margin: 0 auto;
 }
 
-.wait_items_text {
+.item_descr {
   font-size: 15px;
   line-height: 21px;
   font-weight: 300;
